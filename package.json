@@ -1,5 +1,5 @@
 {
-  "name": "boardgame.io",
+  "name": "boardgame.io-examples",
   "version": "0.23.3",
   "description": "library for turn-based games",
   "repository": "https://github.com/google/boardgame.io",
@@ -21,27 +21,8 @@
     "prettier": "prettier --write \"{examples,docs,src,storybook}/**/*.{js,css,md}\"",
     "postpublish": "node ./scripts/postpublish.js"
   },
-  "main": "dist/boardgameio.js",
-  "unpkg": "dist/boardgameio.min.js",
-  "module": "dist/boardgameio.es.js",
   "files": [
-    "dist/boardgameio.js",
-    "dist/boardgameio.min.js",
-    "dist/boardgameio.es.js",
-    "dist/server.js",
-    "dist/client.js",
-    "dist/react.js",
-    "dist/react-native.js",
-    "dist/core.js",
-    "dist/ui.js",
-    "dist/ai.js",
-    "server.js",
-    "client.js",
-    "react.js",
-    "react-native.js",
-    "core.js",
-    "ui.js",
-    "ai.js"
+    "examples"
   ],
   "keywords": [
     "react",
@@ -166,8 +147,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test:coverage"
+      "pre-commit": "lint-staged"
     }
   }
 }
