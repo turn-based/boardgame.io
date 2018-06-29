@@ -21,7 +21,8 @@
     "postpublish": "node ./scripts/postpublish.js"
   },
   "files": [
-    "examples"
+    "examples",
+    "index.ts"
   ],
   "keywords": [
     "react",
@@ -97,6 +98,7 @@
   },
   "dependencies": {
     "@koa/cors": "^2.2.1",
+    "chess.js": "^0.10.2",
     "firebase": "^5.0.4",
     "koa": "^2.3.0",
     "koa-body": "^2.5.0",
@@ -112,8 +114,7 @@
     "uuid": "3.2.1"
   },
   "peerDependencies": {
-    "boardgame.io": "0.23.3",
-    "chess.js": "^0.10.2"
+    "boardgame.io": "0.23.3"
   },
   "config": {
     "exportAliases": {
