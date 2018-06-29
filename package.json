@@ -22,7 +22,7 @@
   },
   "files": [
     "examples",
-    "index.ts"
+    "index.js"
   ],
   "keywords": [
     "react",
