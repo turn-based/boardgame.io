@@ -6,7 +6,7 @@
  * https://opensource.org/licenses/MIT.
  */
 
-import { Game } from 'boardgame.io/core';
+import { Game } from 'boardgame.io/dist/core';
 import Chess from 'chess.js';
 
 // Helper to instantiate chess.js correctly on
